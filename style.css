@@ -1,0 +1,32 @@
+#header
+{
+    background-color: #005c5c;
+    color:white;
+
+    text-align: center;
+    padding: 10px;
+}
+
+#header button
+{
+    background-color: #00c0b2;
+    color: #007069;
+}
+
+li:nth-child(3n + 1)
+{
+    background-color: teal;
+    color: #ffffff;
+}
+li:nth-child(3n + 2)
+{
+    background-color: #00c0c0;
+}
+li:nth-child(3n)
+{
+    background-color: #00e0e0;
+}
+li
+{
+    list-style-type: none;
+}
