@@ -6,31 +6,31 @@
     <title>Лаб 1</title>
 </head>
 <body>
-    <div id="header">
+    <div id="divHeader">
         <h1>
             Список дел
         </h1>
         <p>
             <form>
-                <input type="text" placeholder="Введите новое дело" />
-                <button>
+                <input id="inputTask" type="text" placeholder="Введите новое дело" />
+                <button id="buttonAddTask">
                     Создать
                 </button>
             </form>
         </p>
     </div>
     <p id="my_list">
-        <ol>
-            <li>
+        <ol id="list">
+            <li id="listElementFirst">
                 <form>
                     <input type="checkbox">
                     <span>Почесать кошку</span>
-                    <button>
+                    <button id="buttonTest">
                         <img src="red cross.png" height="10" width="15">
                     </button>
                 </form>
             </li>
-            <li>
+            <li id="listElementSecond">
                 <form>
                     <input type="checkbox">
                     <span>Полить картошку</span>
@@ -39,7 +39,7 @@
                     </button>
                 </form>
             </li>
-            <li>
+            <li  id="listElementThird">
                 <form>
                     <input type="checkbox">
                     <span>Сложить в лукошко</span>
@@ -51,4 +51,5 @@
         </ol>
     </p>
 </body>
+<script src="test.js" defer></script>
 </html>
