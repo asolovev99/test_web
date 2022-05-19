@@ -11,44 +11,44 @@
             Список дел
         </h1>
         <p>
-            <form>
                 <input id="inputTask" type="text" placeholder="Введите новое дело" />
                 <button id="buttonAddTask">
                     Создать
                 </button>
-            </form>
         </p>
     </div>
     <p id="my_list">
         <ol id="list">
             <li id="listElementFirst">
-                <form>
-                    <input type="checkbox">
+                    <input type="checkbox" id="inputElementFirst">
                     <span>Почесать кошку</span>
-                    <button id="buttonTest">
+                    <button id="buttonElementFirst">
                         <img src="red cross.png" height="10" width="15">
                     </button>
-                </form>
             </li>
             <li id="listElementSecond">
-                <form>
-                    <input type="checkbox">
+                    <input type="checkbox" id="inputElementSecond">
                     <span>Полить картошку</span>
-                    <button>
+                    <button id="buttonElementSecond">
                         <img src="red cross.png" height="10" width="15">
                     </button>
-                </form>
             </li>
             <li  id="listElementThird">
-                <form>
-                    <input type="checkbox">
+                    <input type="checkbox" id="inputElementThird">
                     <span>Сложить в лукошко</span>
-                    <button>
+                    <button id="buttonElementThird">
                         <img src="red cross.png" height="10" width="15">
                     </button>
-                </form>
             </li>
         </ol>
+    </p>
+    <p>
+        <input type="radio" name="filter" value="Done" id="radioDone" checked>Сделано
+        <label for="radioDone">Не сделано</label>
+        <input type="radio" name="filter" value="NotDone" id="radioNotDone">
+        <label for="radioNotDone">Не сделано</label>
+        <input type="radio" name="filter" value="all" id="radioAll">
+        <label for="radioAll">Все</label>
     </p>
 </body>
 <script src="test.js" defer></script>
