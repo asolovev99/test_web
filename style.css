@@ -53,3 +53,11 @@ span
     text-decoration: none;
 }
 
+.choosen
+{
+    font-weight: bold;
+}
+
+.notChoosen {
+    font-weight: normal;
+}

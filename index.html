@@ -44,11 +44,11 @@
     </p>
     <p>
         <input type="radio" name="filter" value="Done" id="radioDone" onchange="check()">
-        <label for="radioDone">Сделано (1)</label>
+        <label class="notChoosen" id="labelRadioDone" for="radioDone">Сделано (1)</label>
         <input type="radio" name="filter" value="NotDone" id="radioNotDone" onchange="check()">
-        <label for="radioNotDone">Не сделано (2)</label>
+        <label class="notChoosen" id="labelRadioNotDone" for="radioNotDone">Не сделано (2)</label>
         <input type="radio" name="filter" value="All" id="radioAll" onchange="check()" checked>
-        <label for="radioAll">Все (3)</label>
+        <label class="choosen" id="labelRadioAll" for="radioAll">Все (3)</label>
     </p>
 </body>
 <script src="test.js" defer></script>
