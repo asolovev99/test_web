@@ -43,12 +43,12 @@
         </ol>
     </p>
     <p>
-        <input type="radio" name="filter" value="Done" id="radioDone" checked>Сделано
-        <label for="radioDone">Не сделано</label>
-        <input type="radio" name="filter" value="NotDone" id="radioNotDone">
-        <label for="radioNotDone">Не сделано</label>
-        <input type="radio" name="filter" value="all" id="radioAll">
-        <label for="radioAll">Все</label>
+        <input type="radio" name="filter" value="Done" id="radioDone" onchange="check()">
+        <label for="radioDone">Сделано (1)</label>
+        <input type="radio" name="filter" value="NotDone" id="radioNotDone" onchange="check()">
+        <label for="radioNotDone">Не сделано (2)</label>
+        <input type="radio" name="filter" value="All" id="radioAll" onchange="check()" checked>
+        <label for="radioAll">Все (3)</label>
     </p>
 </body>
 <script src="test.js" defer></script>
